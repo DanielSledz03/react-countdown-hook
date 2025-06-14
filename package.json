@@ -1,0 +1,59 @@
+{
+  "name": "@danielsledz/react-countdown-hook",
+  "version": "1.1.2",
+  "description": "A simple React hook for creating countdown timers to any target date or time",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "build:types": "tsc --emitDeclarationOnly",
+    "prepublishOnly": "npm run build",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "clean": "rm -rf dist",
+    "dev": "rollup -c --watch"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "countdown",
+    "timer",
+    "typescript",
+    "date",
+    "time"
+  ],
+  "author": "Daniel Śledź",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielsledz/react-countdown-hook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielsledz/react-countdown-hook/issues"
+  },
+  "homepage": "https://github.com/danielsledz/react-countdown-hook#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/jsdom": "^21.1.7",
+    "@types/react": "^19.1.8",
+    "jsdom": "^25.0.1",
+    "rollup": "^4.21.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.8.3",
+    "vitest": "^2.1.8"
+  }
+}
