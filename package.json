@@ -32,12 +32,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielsledz/react-countdown-hook.git"
+    "url": "https://github.com/DanielSledz03/react-countdown-hook"
   },
   "bugs": {
-    "url": "https://github.com/danielsledz/react-countdown-hook/issues"
+    "url": "https://github.com/DanielSledz03/react-countdown-hook/issues"
   },
-  "homepage": "https://github.com/danielsledz/react-countdown-hook#readme",
+  "homepage": "https://github.com/DanielSledz03/react-countdown-hook#readme",
   "peerDependencies": {
     "react": ">=16.8.0"
   },
